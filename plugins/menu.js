@@ -42,16 +42,16 @@ Function({
 		}
 	})
 	let msg = `╭━━━〔 ${BOT_INFO.split(";")[0]} ⁩〕━━━┈⊷
-┃✵╭──────────────
-┃✵│ Owner : ${BOT_INFO.split(";")[1]}
-┃✵│ User : ${m.pushName.replace( /[\r\n]+/gm, "" )}
-┃✵│ Plugins : ${commands.length}
-┃✵│ Runtime : ${runtime(process.uptime())}
-┃✵│ Mode : ${MODE}
-┃✵│ Platform : ${os.platform()}
-┃✵│ Ram : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-┃✵│ Version : ${VERSION}
-┃✵╰──────────────
+┃☔╭──────────────
+┃☔│ Owner : ${BOT_INFO.split(";")[1]}
+┃☔│ User : ${m.pushName.replace( /[\r\n]+/gm, "" )}
+┃☔│ Plugins : ${commands.length}
+┃☔│ Runtime : ${runtime(process.uptime())}
+┃☔│ Mode : ${MODE}
+┃☔│ Platform : ${os.platform()}
+┃☔│ Ram : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+┃☔│ Version : ${VERSION}
+┃☔╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 `
 	for (const command in commandslist) {
@@ -67,9 +67,9 @@ Function({
 `
 	}
 	await message.send(msg);
-	/* var img = await parsedUrl(BOT_INFO)
+	/ var img = await parsedUrl(BOT_INFO)
 	if (img.length == 0) {
-		img = ['https://i.imgur.com/qJUBCYm.jpeg']
+		img = ['https://i.imgur.com/98YEwrf.jpeg']
 	}
 	const image = img[Math.floor(Math.random() * img.length)]
 	const type = image.endsWith('mp4') ? 'video' : 'image'
