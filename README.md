@@ -6,9 +6,9 @@ Genos-md - Simple whatsapp Multi Device whatsapp bot.
 
 ***
 
-### SETUP
+*### SETUP*
 
-1. Scan the QR and copy it
+*1. Scan the QR and copy it
     <br>
 <a href='https://hermit.adithyan.xyz/qr' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
@@ -22,4 +22,4 @@ Genos-md - Simple whatsapp Multi Device whatsapp bot.
     <br>
 <a href='https://heroku.com/deploy?template=https://github.com/sataniceypz/genos-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-### This Bot was cloned from [HERMIT-MD](https://github.com/A-d-i-t-h-y-a-n/hermit-md) 
+### This Bot was cloned from [HERMIT-MD](https://github.com/A-d-i-t-h-y-a-n/hermit-md)
