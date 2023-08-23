@@ -67,7 +67,7 @@ Function({
 `
 	}
 	await message.send(msg);
-	/ var img = await parsedUrl(BOT_INFO)
+	/* var img = await parsedUrl(BOT_INFO)
 	if (img.length == 0) {
 		img = ['https://i.imgur.com/98YEwrf.jpeg']
 	}
